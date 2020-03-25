@@ -1,0 +1,32 @@
+
+
+
+
+*********************************
+*                               *
+*    Eduardo Gonzále Melgoza    *
+*    A01701446                  *
+*                               *
+*    Partial Activity           *
+*    Pokédex                    *
+*                               *
+*********************************
+
+What made it easier for you to implement the view?
+
+     The visual editor for the layouts made it easier for
+   me to be able to configure a view however I wanted with
+   a relatively easy to understand interface.
+
+
+What made it difficult for you to implement the view?
+
+     What made it difficult for me to implement the view is
+   the lack of experience that I currently possess about 
+   programming in Kotlin. It took me while to understand the
+   INTENT managing part. I look forward to further expand on
+   my understanding of the Kotlin methods.
+
+
+
+
