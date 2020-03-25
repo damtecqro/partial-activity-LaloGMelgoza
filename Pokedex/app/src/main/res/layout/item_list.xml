@@ -1,28 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="16dp"
     >
 
-    <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/pokemon_logo_min"
-        android:layout_gravity="center"
-        android:id="@+id/pokemon_image"
-        />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="362dp"
+        android:layout_height="123dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pokemon"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:id="@+id/pokemon_name"
+        <ImageButton
+            android:id="@+id/pokemon_image"
+            android:layout_width="125dp"
+            android:layout_height="124dp"
+            android:layout_gravity="center|left"
+            android:background="?android:selectableItemBackground"
+            android:src="@drawable/pokemon_logo_min"
+            tools:layout_editor_absoluteX="-2dp"
+            tools:layout_editor_absoluteY="1dp" />
 
-        />
+        <TextView
+            android:id="@+id/pokemon_detail_name"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center|right"
+            android:text="Pokemon"
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/pokemon_image"
+            tools:layout_editor_absoluteY="51dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 </LinearLayout>
